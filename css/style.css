@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: brown;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 200px;
+  max-width: 1280px;
+  background: cadetblue;
+  height: 500px;
+}
+
+.container h1,
+.container p {
+  color: blueviolet;
+}
